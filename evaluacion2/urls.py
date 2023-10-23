@@ -22,6 +22,8 @@ from segundaApp.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", renderView),
-    path("inicio", inicio)
-    
+    path("inicio", inicio),
+    path("chile", chile),
+    path("brasil", brasil),
+    path("argentina", argentina)
 ]

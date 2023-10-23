@@ -14,20 +14,23 @@
     <div class="container">
         <div class="row p-4">
             <div class="col-4">
-                <a href="/chile" class="w-100 h-100"><img style="width: 150px; height: auto;" src="{% static 'images/chile.png' %}" alt="no cargo :C pipipipi"></a>
+                <a href="/chile" class="w-100 h-100 btn {{estadocl}}"><img style="width: 150px; height: auto;" src="{% static 'images/chile.png' %}" alt="no cargo :C pipipipi"></a>
             </div>
             <div class="col-4">
-                <a href="/brasil" class="w-100 h-100"><img style="width: 100px; height: auto;" src="{% static 'images/brasil.png' %}" alt="no cargo :C pipipipi"></a>
+                <a href="/brasil" class="w-100 h-100 btn {{estadobr}}"><img style="width: 100px; height: auto;" src="{% static 'images/brasil.png' %}" alt="no cargo :C pipipipi"></a>
             </div>
             <div class="col-4">
-                <a href="/argentina" class="w-100 h-100"><img style="width: 100px; height: auto;" src="{% static 'images/argentina.png' %}" alt="no cargo :C pipipipi"></a>
+                <a href="/argentina" class="w-100 h-100 btn {{estadoar}}"><img style="width: 100px; height: auto;" src="{% static 'images/argentina.png' %}" alt="no cargo :C pipipipi"></a>
             </div>
         </div>
         <div class="row p-5">
             <h4>Nombre equipo: </h4><p>{{nombre}}</p>
             <h4>Fecha creacion: </h4><p>{{fecha}}</p>
             <h4>Copas americas: </h4><p>{{copaA}}</p>
-            <h4>Participaciones en Copas mundiales: </h4> <p>{{copaM}}</p>
+            <h4>Participaciones en Copas mundiales: </h4> <p>{{PcopaM}}</p>
+        </div>
+        <div>
+            <a class="btn btn-primary" href="/">Inicio</a>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
